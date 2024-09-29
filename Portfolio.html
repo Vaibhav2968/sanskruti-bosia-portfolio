@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanskruti's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #4a4a4a;
+            margin: 0;
+            padding: 0;
+            background-color: #fdf2f8;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        h1, h2 {
+            font-family: 'Playfair Display', serif;
+            color: #9d174d;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 60px 0;
+            background: linear-gradient(135deg, #fdf2f8 0%, #fbcfe8 100%);
+        }
+
+        .profile-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            overflow: hidden;
+            border: 8px solid #fbcfe8;
+            box-shadow: 0 10px 20px rgba(157, 23, 77, 0.2);
+        }
+
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .name {
+            font-size: 3em;
+            margin: 20px 0 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #9d174d;
+        }
+
+        /* Sections */
+        .section {
+            background-color: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* About */
+        .about p {
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+
+        /* Skills */
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .skills li {
+            background-color: #fbcfe8;
+            color: #9d174d;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 30px;
+            font-size: 0.9em;
+            transition: all 0.3s ease;
+        }
+
+        .skills li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(157, 23, 77, 0.3);
+        }
+
+        /* Hobbies */
+        .hobbies ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .hobbies li {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hobbies i {
+            font-size: 2em;
+            color: #9d174d;
+            margin-bottom: 10px;
+        }
+
+        /* Future Goals */
+        .future-goals {
+            background: linear-gradient(135deg, #fdf2f8 0%, #fbcfe8 100%);
+            text-align: center;
+        }
+
+        /* Contact Info */
+        .contact-info {
+            text-align: center;
+            background-color: #9d174d;
+            color: white;
+            padding: 40px;
+            border-radius: 20px;
+        }
+
+        .contact-info a {
+            color: #fbcfe8;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            color: #fdf2f8;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            .section {
+                padding: 30px;
+            }
+
+            .name {
+                font-size: 2.5em;
+            }
+
+            .skills li {
+                margin: 5px;
+            }
+
+            .profile-pic {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile-pic">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv0s920lWW4Ktk85hkWQ1IJ7mGrojehXMMNQ&s" alt="Profile Picture">
+        </div>
+        <h1 class="name">Hi, I'm Sanskruti</h1>
+        <p class="subtitle">Student at Silver Oak University</p>
+    </header>
+
+    <main class="container">
+        <section class="section about">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! I'm Sanskruti, a dedicated student at Silver Oak University. My academic journey and hands-on projects have equipped me with a diverse set of skills and a deep understanding of various technical and soft skills. I'm passionate about technology and its power to make a positive impact in the world.</p>
+        </section>
+
+        <section class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Teamwork</li>
+                <li>Leadership</li>
+                <li>Communication</li>
+                <li>Problem-solving</li>
+            </ul>
+        </section>
+
+        <section class="section hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li><i class="fas fa-book"></i><br>Reading</li>
+                <li><i class="fas fa-music"></i><br>Music</li>
+                <li><i class="fas fa-palette"></i><br>Painting</li>
+            </ul>
+        </section>
+
+        <section class="section future-goals">
+            <h2>Future Goals</h2>
+            <p>My goal is to leverage the knowledge and skills acquired through my studies at Silver Oak University to contribute to impactful projects in the tech industry. I aspire to create innovative solutions that can make a difference in people's lives and push the boundaries of what's possible with technology.</p>
+        </section>
+
+        <section class="contact-info">
+            <h2>Let's Connect</h2>
+            <p>Email: <a href="mailto:sanskrutibosia@gmail.com.com">sanskrutibosia@gmail.com</a></p>
+            <p>Mobile: <a href="tel:+918849836365">+91 88498 36365</a></p>
+            <p>Ahmedabad, Gujarat, India</p>
+        </section>
+    </main>
+</body>
+</html>
